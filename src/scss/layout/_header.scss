@@ -10,10 +10,10 @@
 }
 
 .menu__icon {
+    position: fixed;
     background-color: $colorMain;
     padding: 10px;
-    position: fixed;
-}
+    }
 
 .section1 {
     text-align: center;
@@ -34,9 +34,9 @@
 .arrow {
     background-color: white;
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     align-content: center;
     display: inline-block;
-    margin: 155px;
+    margin: 140px;
 }

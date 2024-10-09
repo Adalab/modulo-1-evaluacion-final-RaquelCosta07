@@ -5,5 +5,36 @@
 }
 
 .section2 h3 {
+    font-family: $fontMain;
     color: $colorMain;
+    margin: 10px;
+    text-align: left;
+}
+
+.section2 h2 {
+    font-family: $fontMain;
+    margin: 10px;
+    text-align: left;
+    font-size: 28px;
+}
+
+.section2 p {
+    font-family: $fontMain;
+    font-size: 25px;
+    margin: 10px;
+    text-align: left;
+}
+
+.button-comprar {
+    color: $colorMain;
+    border: solid 4px $colorMain;
+    background-color: white;
+    width: 161px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+   
 }
