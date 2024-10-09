@@ -9,3 +9,34 @@
 
 }
 
+.menu__icon {
+    background-color: $colorMain;
+    padding: 10px;
+    position: fixed;
+}
+
+.section1 {
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    padding-top: 400px;
+}
+.header__title {
+    margin-right: 65px;
+    font-size: 40px;
+}
+
+.header__p {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 30px;
+}
+.arrow {
+    background-color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    align-content: center;
+    display: inline-block;
+    margin: 155px;
+}
