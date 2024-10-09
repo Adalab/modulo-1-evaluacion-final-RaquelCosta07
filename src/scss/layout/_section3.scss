@@ -8,7 +8,7 @@
 .section3__body {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows:  2fr 1fr 2fr 1fr 2fr 1fr;
+    grid-template-rows: 2fr 0.5fr 2fr 0.5fr 2fr 0.5fr;
 
 }
 .titles__section3 h4 {
@@ -30,4 +30,24 @@
     margin-bottom: 20px;
 }
 
+.button__empezar {
+    width: 177px;
+    height: 61px;
+    font-size: 20px;
+    border-color: $colorMain;
+    color: white;
+    background-color: $colorMain;
+    border-radius: 35px;
+    margin-bottom: 40px;
+}
+
+.up__arrow {
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 11px;
+    border: none;
+    
+}
 
