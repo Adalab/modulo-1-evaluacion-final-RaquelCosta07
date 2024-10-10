@@ -8,14 +8,21 @@
 .section3__body {
     display: grid;
     grid-template-columns: 1fr;
+    justify-items: center;
 
     @media (min-width: 768px) {
     grid-template-columns: 1fr 1fr 1fr;
      }
 }
 .titles__section3 h4 {
-    color: $colorFooter;
+    font-family: $fontMain;
+    color: #626262;
     padding-top: 25px;
+}
+
+.titles__section h2 {
+    font-family: $fontMain;
+    font-size: 50px; 
 }
 
 .section3__body img {
@@ -24,12 +31,13 @@
     object-fit: cover;
     display: inline-block;
     border-radius: 50%;
-    margin-left: 30%;
     margin-bottom: 10px;
     margin-top: 10px;
+    text-align: center;
 }
 .section3__body h3 {
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .button__empezar {
@@ -50,6 +58,6 @@
     border-radius: 50%;
     padding: 11px;
     border: none;
-    
 }
+
 
