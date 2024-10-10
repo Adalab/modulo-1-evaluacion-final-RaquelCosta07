@@ -17,20 +17,20 @@
 
 .section1 {
     display: flex;
-    align-items: center;
     text-align: center;
-    flex-direction: column;
     color: white;
     padding-top: 400px;
+    max-width: 430px;
+    flex-direction: column;
+    align-items: center;
 }
 .header__title {
-    margin-right: 65px;
-    font-size: 40px;
+    font-size: 45px;
     text-align: center;
 }
 
 .header__p {
-    font-size: 20px;
+    font-size: 29px;
     line-height: 30px;
     padding: 30px;
     text-align: center;
@@ -42,5 +42,4 @@
     height: 60px;
     align-content: center;
     display: inline-block;
-    margin: 140px;
 }
