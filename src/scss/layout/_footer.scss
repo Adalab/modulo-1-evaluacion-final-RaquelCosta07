@@ -1,8 +1,36 @@
 .footer {
     background-color: $colorFooter;
+    padding-top: 40px; 
+    padding-bottom: 40px;
+
+    @media (min-width: 768px) {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    }
+
+.lista__footer {
     text-align: center;
+    color: white;
+    order: 3;
+
 }
 
 .footer ul {
+    padding: 10px;
+}
+
+.lista__twitter {
+    text-align: center;
     color: white;
+    order: 2;
+}
+
+.footer p {
+    text-align: center;
+    color: white;
+    order: 4;
+
 }
